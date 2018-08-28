@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.signup-page {
+  background-image: url("signup-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  text-align: center;
+
+  /*background-color: #FFA500;*/
+  width: 100%;
+  padding: 6% 6% 15% 6%;
+  margin: 0;
+}
+.form {
+  position: relative;
+  background: #FF0000;
+  border: 4px solid white;
+  max-width: 360px;          /* cell ko bada kaise kare?*/
+  margin: auto;
+  padding: 45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #FFA500;
+  width: 100%;
+  border: 2px solid black;      /*colour bhi change nahi ho raha*/
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 75%;
+  border: 4px solid blue;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+body {
+  /*background-image: url("signup-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;*/ 
+  /*background: #76b852;*/
+  font-family: "Roboto", sans-serif;
+}
